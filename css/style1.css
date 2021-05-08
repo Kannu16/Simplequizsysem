@@ -1,0 +1,113 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	font-weight: 300
+}
+html {
+	font-size: 62.5%
+}
+.container {
+	width: 85vw;
+	padding-bottom: 5rem;
+	display: grid;
+	place-items: center;
+	background-color: #e3edf7
+}
+.content-part {
+	width: 50vw;
+	padding: 3rem 8rem;
+	border: 1rem;
+	border-radius: 10px;
+	border-radius: 7px;
+	background: #e0e0e0;
+	box-shadow: 28px 28px 56px #bebebe, -28px -28px 56px #fff
+}
+.content-part h2 {
+	font-size: 2.5rem;
+	font-weight: bold;
+	margin: 1rem 0 4rem 0;
+	padding: 2rem;
+	background: linear-gradient(to right, #4cfa50, #00bcd4)
+}
+.content-part li {
+	font-size: 2rem;
+	margin-top: 1.5rem;
+	list-style: none
+}
+input {
+	cursor: pointer
+}
+#submit {
+	padding: 1rem 3rem;
+	outline: none;
+	font-size: 2rem;
+	cursor: pointer;
+	border: none;
+	color: #fff;
+	background-color: hsl(258, 83%, 45%);
+	margin-top: 4rem;
+	margin-left: 1rem;
+	border-radius: 50px
+}
+.btn {
+	padding: 1rem 3rem;
+	outline: none;
+	font-size: 2rem;
+	display: block;
+	margin: auto;
+	cursor: pointer;
+	border: none;
+	color: #fff;
+	background-color: hsl(258, 83%, 45%);
+	margin-top: 4rem;
+	border-radius: 50px
+}
+#showscore {
+	background-color: #dfe6e9;
+	margin-top: 3rem;
+	padding: 3rem 4rem;
+	box-shadow: 28px 28px 56px #bebebe, -28px -28px 56px #fff
+}
+.scorearea {
+	display: none;
+	
+}
+#showscore {
+	font-size: 3rem;
+	text-align: center;
+	background-color: #d2d7d3
+}
+#showscore .btn {
+	margin-top: 2rem;
+	background-color: #24252a;
+	color: #fff
+}
+body {
+	background: #e3edf7;
+	font-family: sans-serif;
+	border: 1px solid black;
+	margin: 5%
+}
+.logo {
+	width: 7%;
+	border-radius: 50%;
+	background: #e0e0e0;
+	background: #e0e0e0;
+	box-shadow: 5px 5px 17px #868686, -5px -5px 17px #fff;
+	margin-left: 50px
+}
+.nav-content {
+	display: flex;
+	margin: 30px
+}
+.nav-content img {
+	cursor: pointer
+}
+.percentage-score {
+	background-color: #000080;
+	padding: 6px;
+	color: #fff;
+	font-family: Verdana, Geneva, Tahoma, sans-serif
+}
